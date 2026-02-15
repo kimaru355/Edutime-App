@@ -62,16 +62,18 @@ class AppColors {
   static const Color error950 = Color(0xFF55160C);
 
   // Warning Colors
-  static const Color orange25 = Color(0xFFFFFCF5);
-  static const Color orange50 = Color(0xFFFFFAEB);
-  static const Color orange100 = Color(0xFFFEF0C7);
-  static const Color orange200 = Color(0xFFFEDF89);
-  static const Color orange300 = Color(0xFFFEC84B);
-  static const Color orange400 = Color(0xFFFDB022);
-  static const Color orange500 = Color(0xFFF79009);
-  static const Color orange600 = Color(0xFFDC6803);
-  static const Color orange700 = Color(0xFFB54708);
-  static const Color orange800 = Color(0xFF93370D);
-  static const Color orange900 = Color(0xFF7A2E0E);
-  static const Color orange950 = Color(0xFF4E1D09);
+  static const Color warning25 = Color(0xFFFFFCF5);
+  static const Color warning50 = Color(0xFFFFFAEB);
+  static const Color warning100 = Color(0xFFFEF0C7);
+  static const Color warning200 = Color(0xFFFEDF89);
+  static const Color warning300 = Color(0xFFFEC84B);
+  static const Color warning400 = Color(0xFFFDB022);
+  static const Color warning500 = Color(0xFFF79009);
+  static const Color warning600 = Color(0xFFDC6803);
+  static const Color warning700 = Color(0xFFB54708);
+  static const Color warning800 = Color(0xFF93370D);
+  static const Color warning900 = Color(0xFF7A2E0E);
+  static const Color warning950 = Color(0xFF4E1D09);
+
+  static const Color white = Color(0xFFFFFFFF);
 }
