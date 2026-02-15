@@ -1,3 +1,5 @@
+import 'package:edutime/core/theme/app_text_styles.dart';
+import 'package:edutime/core/widgets/svg_icon.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -69,11 +71,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('You have pushed the button this many times:'),
+            Text('You have pushed the button this many times:', style: AppTextStyles.body1Regular,),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: AppTextStyles.body1SemiBold,
             ),
+            SvgIconSize.regular(assetPath: 'assets/icons/add-square-outline.svg')
           ],
         ),
       ),
