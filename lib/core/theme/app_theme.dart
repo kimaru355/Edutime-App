@@ -44,11 +44,11 @@ class AppTheme {
 
       // Primary colors
       primaryColor: AppColors.primary500,
-      primaryColorLight: AppColors.primary300,
-      primaryColorDark: AppColors.primary700,
+      primaryColorLight: AppColors.primary700,
+      primaryColorDark: AppColors.primary300,
 
       // Scaffold
-      scaffoldBackgroundColor: AppColors.gray950,
+      scaffoldBackgroundColor: AppColors.gray900,
       canvasColor: AppColors.gray800,
 
       // Card color

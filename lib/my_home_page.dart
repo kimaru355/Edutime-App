@@ -1,6 +1,10 @@
+import 'package:edutime/core/theme/app_colors.dart';
 import 'package:edutime/core/theme/app_text_styles.dart';
 import 'package:edutime/core/widgets/svg_icon.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+import 'core/widgets/app_button.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -71,12 +75,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('You have pushed the button this many times:', style: AppTextStyles.body1Regular,),
-            Text(
-              '$_counter',
-              style: AppTextStyles.body1SemiBold,
-            ),
-            SvgIconSize.regular(assetPath: 'assets/icons/add-square-outline.svg')
+            // Default constructor (most flexible)
+            AppButton(label: 'Click Me', onPressed: () {}),
+            SizedBox(height: 8,),
+            AppButton.text(label: 'Next', size: AppButtonSize.large, trailingIcon: SvgIconSize.regular(assetPath: 'assets/icons/add-square-bold.svg'), onPressed: () { print(AppTextStyles.ctaButtonSemiBold);},),
+            Text('Next', style: AppTextStyles.ctaButtonSemiBold.copyWith(color: AppColors.gray50)),
+            AppButton.icon(icon: SvgIconSize.regular(assetPath: 'assets/icons/add-square-bold.svg'), variant: AppButtonVariant.clear)
           ],
         ),
       ),

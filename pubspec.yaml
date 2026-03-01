@@ -91,7 +91,10 @@ dependencies:
   cached_network_image: ^3.4.1     # Image caching (profile pics, faculty logos)
   shimmer: ^3.0.0                   # Skeleton loading screens
   flutter_screenutil: ^5.9.3        # For responsive design
+  timelines_plus: ^1.0.8             # Indicating timeflow
+  date_picker_timeline: ^1.2.7      #
 
+  animate_do: ^4.2.0
 
   # ============================================================================
   # NAVIGATION (Deep Linking Support)

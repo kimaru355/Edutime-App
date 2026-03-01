@@ -14,7 +14,7 @@ class AppTextStyles {
   static TextStyle heading1ExtraBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 34.sp,
-    fontWeight: FontWeight.w800,
+    fontVariations: <FontVariation>[FontVariation('wght', 800)],
     height: 1.2, // line height
     letterSpacing: -0.68,
   );
@@ -23,7 +23,7 @@ class AppTextStyles {
   static TextStyle heading1Bold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 34.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.2,
     letterSpacing: -0.68,
   );
@@ -32,7 +32,7 @@ class AppTextStyles {
   static TextStyle heading2ExtraBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 28.sp,
-    fontWeight: FontWeight.w800,
+    fontVariations: <FontVariation>[FontVariation('wght', 800)],
     height: 1.25,
     letterSpacing: -0.28,
   );
@@ -41,7 +41,7 @@ class AppTextStyles {
   static TextStyle heading2Bold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 28.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.25,
     letterSpacing: -0.28,
   );
@@ -52,7 +52,7 @@ class AppTextStyles {
   static TextStyle title1ExtraBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 24.sp,
-    fontWeight: FontWeight.w800,
+    fontVariations: <FontVariation>[FontVariation('wght', 800)],
     height: 1.3,
     letterSpacing: -0.24,
   );
@@ -61,7 +61,7 @@ class AppTextStyles {
   static TextStyle title1Bold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 24.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.3,
     letterSpacing: -0.24,
   );
@@ -70,7 +70,7 @@ class AppTextStyles {
   static TextStyle title1SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 24.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.3,
     letterSpacing: -0.24,
   );
@@ -79,7 +79,7 @@ class AppTextStyles {
   static TextStyle title2ExtraBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 20.sp,
-    fontWeight: FontWeight.w800,
+    fontVariations: <FontVariation>[FontVariation('wght', 800)],
     height: 1.35,
     letterSpacing: 0,
   );
@@ -88,7 +88,7 @@ class AppTextStyles {
   static TextStyle title2Bold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 20.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.35,
     letterSpacing: 0,
   );
@@ -97,7 +97,7 @@ class AppTextStyles {
   static TextStyle title2SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 20.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.35,
     letterSpacing: 0,
   );
@@ -108,7 +108,7 @@ class AppTextStyles {
   static TextStyle body1SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -117,7 +117,7 @@ class AppTextStyles {
   static TextStyle body1Medium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -126,7 +126,7 @@ class AppTextStyles {
   static TextStyle body1Regular = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w400,
+    fontVariations: <FontVariation>[FontVariation('wght', 400)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -135,7 +135,7 @@ class AppTextStyles {
   static TextStyle body2SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 15.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.45,
     letterSpacing: 0.15,
   );
@@ -144,7 +144,7 @@ class AppTextStyles {
   static TextStyle body2Medium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 15.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.45,
     letterSpacing: 0.15,
   );
@@ -153,7 +153,7 @@ class AppTextStyles {
   static TextStyle body2Regular = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 15.sp,
-    fontWeight: FontWeight.w400,
+    fontVariations: <FontVariation>[FontVariation('wght', 400)],
     height: 1.45,
     letterSpacing: 0.15,
   );
@@ -162,7 +162,7 @@ class AppTextStyles {
   static TextStyle body3SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 13.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.42,
     letterSpacing: 0.26,
   );
@@ -171,7 +171,7 @@ class AppTextStyles {
   static TextStyle body3Medium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 13.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.42,
     letterSpacing: 0.26,
   );
@@ -180,7 +180,7 @@ class AppTextStyles {
   static TextStyle body3Regular = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 13.sp,
-    fontWeight: FontWeight.w400,
+    fontVariations: <FontVariation>[FontVariation('wght', 400)],
     height: 1.42,
     letterSpacing: 0.26,
   );
@@ -191,7 +191,7 @@ class AppTextStyles {
   static TextStyle captionBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 12.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.33,
     letterSpacing: 0.36,
   );
@@ -200,7 +200,7 @@ class AppTextStyles {
   static TextStyle captionSemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 12.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.33,
     letterSpacing: 0.36,
   );
@@ -209,7 +209,7 @@ class AppTextStyles {
   static TextStyle captionMedium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 12.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.33,
     letterSpacing: 0.36,
   );
@@ -220,7 +220,7 @@ class AppTextStyles {
   static TextStyle subtitleBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w700,
+    fontVariations: <FontVariation>[FontVariation('wght', 700)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -229,7 +229,7 @@ class AppTextStyles {
   static TextStyle subtitleSemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -238,7 +238,7 @@ class AppTextStyles {
   static TextStyle subtitleMedium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 17.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.45,
     letterSpacing: 0,
   );
@@ -248,8 +248,8 @@ class AppTextStyles {
   /// CTA Button - Semi Bold (16px, weight: 600)
   static TextStyle ctaButtonSemiBold = TextStyle(
     fontFamily: _fontFamily,
-    fontSize: 16.sp,
-    fontWeight: FontWeight.w600,
+    fontSize: 16.spMax,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.5,
     letterSpacing: 0,
   );
@@ -258,7 +258,7 @@ class AppTextStyles {
   static TextStyle ctaButtonMedium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 16.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.5,
     letterSpacing: 0,
   );
@@ -267,7 +267,7 @@ class AppTextStyles {
   static TextStyle ctaLinkSemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 14.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.42,
     letterSpacing: 0.21,
   );
@@ -276,7 +276,7 @@ class AppTextStyles {
   static TextStyle ctaLinkMedium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 14.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.42,
     letterSpacing: 0.21,
   );
@@ -287,7 +287,7 @@ class AppTextStyles {
   static TextStyle chip10SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 10.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.4,
     letterSpacing: 0.5,
   );
@@ -296,7 +296,7 @@ class AppTextStyles {
   static TextStyle chip10Medium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 10.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.4,
     letterSpacing: 0.5,
   );
@@ -305,7 +305,7 @@ class AppTextStyles {
   static TextStyle chip10Regular = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 10.sp,
-    fontWeight: FontWeight.w400,
+    fontVariations: <FontVariation>[FontVariation('wght', 400)],
     height: 1.4,
     letterSpacing: 0.5,
   );
@@ -314,7 +314,7 @@ class AppTextStyles {
   static TextStyle chip11SemiBold = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 11.sp,
-    fontWeight: FontWeight.w600,
+    fontVariations: <FontVariation>[FontVariation('wght', 600)],
     height: 1.45,
     letterSpacing: 0.44,
   );
@@ -323,7 +323,7 @@ class AppTextStyles {
   static TextStyle chip11Medium = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 11.sp,
-    fontWeight: FontWeight.w500,
+    fontVariations: <FontVariation>[FontVariation('wght', 500)],
     height: 1.45,
     letterSpacing: 0.44,
   );
@@ -332,8 +332,9 @@ class AppTextStyles {
   static TextStyle chip11Regular = TextStyle(
     fontFamily: _fontFamily,
     fontSize: 11.sp,
-    fontWeight: FontWeight.w400,
+    fontVariations: <FontVariation>[FontVariation('wght', 400)],
     height: 1.45,
     letterSpacing: 0.44,
   );
 }
+
