@@ -1,5 +1,6 @@
 import 'package:edutime/core/theme/app_theme.dart';
-import 'package:edutime/my_home_page.dart';
+import 'package:edutime/core/widgets/custom_bottom_navigation.dart';
+import 'package:edutime/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const MyHomePage(title: 'title'),
+      child: MainPage(userRole: UserRole.student),
     );
   }
 }
