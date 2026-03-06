@@ -107,4 +107,24 @@ class AppShadows {
       spreadRadius: -12,
     ),
   ];
+
+
+  /// Large shadow (Inverse)
+  /// Two shadows combined for high elevation
+  /// 1. offset(0, -10), blur: 15, spread: -3, opacity: 0.10
+  /// 2. offset(0, -4), blur: 6, spread: -4, opacity: 0.10
+  static List<BoxShadow> get lgInverse => [
+    BoxShadow(
+      color: _shadowColor.withAlpha(26),
+      offset: const Offset(0, -10),
+      blurRadius: 15,
+      spreadRadius: -3,
+    ),
+    BoxShadow(
+      color: _shadowColor.withAlpha(26),
+      offset: const Offset(0, -4),
+      blurRadius: 6,
+      spreadRadius: -4,
+    ),
+  ];
 }

@@ -32,6 +32,9 @@ class AppTheme {
 
       // Hint color
       hintColor: AppColors.gray400,
+
+      // Unselected widget color (e.g., unselected icons)
+      unselectedWidgetColor: AppColors.gray600,
     );
   }
 
@@ -62,6 +65,9 @@ class AppTheme {
 
       // Hint color
       hintColor: AppColors.gray500,
+
+      // Unselected widget color (e.g., unselected icons)
+      unselectedWidgetColor: AppColors.gray400,
     );
   }
 }
